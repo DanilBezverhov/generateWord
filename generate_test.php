@@ -16,7 +16,8 @@ function shuffle_assoc(&$array) {
 }
 
 
-$docPath = 'ETOM_22-9_-1-2_ekzamen_OT.docx';
+// сюда вводится название файла
+$docPath = 'test.docx';
 $phpWord = IOFactory::load($docPath, 'Word2007');
 
 
